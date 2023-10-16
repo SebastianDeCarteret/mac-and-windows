@@ -1,0 +1,82 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  display: flex;
+}
+button {
+  width: 200px;
+  height: 50px;
+  border: 1;
+  background-color: gainsboro;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  border-radius: 15px;
+}
+.laptops {
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50vw;
+}
+img {
+  width: 400px;
+  height: 340px;
+}
+h2 {
+  background: gainsboro;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+h1 {
+  background: gainsboro;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 5px;
+}
+p {
+  background: gainsboro;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 5px;
+}
+ul {
+  background: gainsboro;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+ol {
+  background: gainsboro;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+.divider {
+  width: 1px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px, 5px, 0px, 0px;
+  height: 100vh;
+}
+.divider-padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.padding-top {
+  padding-top: 80px;
+}
+header {
+  font-size: 55px;
+  position: absolute;
+  padding-left: calc(50vw - 200px);
+  background-color: gainsboro;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  width: calc(50vw + 145px);
+}
+.page-edge-padding {
+  padding: 15px;
+}
